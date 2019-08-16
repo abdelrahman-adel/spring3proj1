@@ -32,6 +32,9 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = "/login.do")
 public class LoginServlet extends HttpServlet {
 
+	private static final long serialVersionUID = 1L;
+	private static long VISITORS_COUNT = 1;
+
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		PrintWriter out = response.getWriter();
@@ -40,10 +43,10 @@ public class LoginServlet extends HttpServlet {
 		out.println("<title>Yahoo!!!!!!!!</title>");
 		out.println("</head>");
 		out.println("<body>");
-		out.println("My First Servlet");
+		out.println("My First Servlet</br>");
+		out.println("Welcome my visitor number: " + VISITORS_COUNT++);
 		out.println("</body>");
 		out.println("</html>");
-
 	}
 
 }
