@@ -1,4 +1,4 @@
-package com.master.spring.spring2proj6.webapp;
+package com.master.spring.spring2proj6.services;
 
 public class UserValidationService {
 
