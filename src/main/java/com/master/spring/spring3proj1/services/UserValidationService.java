@@ -1,4 +1,4 @@
-package com.master.spring.spring2proj6.services;
+package com.master.spring.spring3proj1.services;
 
 public class UserValidationService {
 

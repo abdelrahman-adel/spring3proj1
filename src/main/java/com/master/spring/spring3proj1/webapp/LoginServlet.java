@@ -1,4 +1,4 @@
-package com.master.spring.spring2proj6.webapp;
+package com.master.spring.spring3proj1.webapp;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.master.spring.spring2proj6.services.UserValidationService;
+import com.master.spring.spring3proj1.services.UserValidationService;
 
 @WebServlet(urlPatterns = "/login.do")
 public class LoginServlet extends HttpServlet {
